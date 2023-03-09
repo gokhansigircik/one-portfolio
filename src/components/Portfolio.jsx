@@ -1,37 +1,31 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import camps from "../assets/portfolio/camps.png";
+import cashflow from "../assets/portfolio/cashflow.png";
+import nonprofit from "../assets/portfolio/nonprofit.jpg";
+import portfol from "../assets/portfolio/portfol.png";
 
 const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
-      src: arrayDestruct,
-      // href: "https://github.com/gokhansigircik",
+      src: camps,
+      codeSrc: "https://github.com/gokhansigircik",
+      watch: "https://www.youtube.com/channel/UC0gjQvO1xluRKmaKqisAhrA",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: nonprofit,
+      codeSrc: "https://github.com/gokhansigircik/non-profit",
     },
     {
       id: 3,
-      src: navbar,
+      src: cashflow,
+      codeSrc: "https://github.com/gokhansigircik/cash_flow_properties",
     },
     {
       id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
+      src: portfol,
+      codeSrc: "https://github.com/gokhansigircik/one-portfolio",
     },
   ];
 
@@ -56,10 +50,10 @@ const Portfolio = () => {
         </div>
 
         <div
-          className="grid sm:grid-cols-2 md:grid-cols-3 gap-8
+          className="grid sm:grid-cols-2 md:grid-cols-4 gap-8
         px-12 sm:px-0"
         >
-          {portfolio.map(({ id, src }) => (
+          {portfolio.map(({ id, src, codeSrc, watch }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -67,20 +61,23 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button 
-                // onClick
-                  className="w-1/2 px-6 py-3 m-4 duration-200 
-              hover:scale-105"
-                >
-                  Demo
-                </button>
-                <button
-                // onClick
-                  className="w-1/2 px-6 py-3 m-4 duration-200 
-              hover:scale-105"
-                >
-                  Code
-                </button>
+              <a href={watch} target="_blank" rel="noopener noreferrer">
+                  <button 
+                    className="w-1/2 px-6 py-3 m-4 duration-200 
+                hover:scale-105"
+                  >
+                    Demo
+                  </button>
+                </a>
+
+                <a href={codeSrc} target="_blank" rel="noopener noreferrer">
+                  <button
+                    className="w-1/2 px-6 py-3 m-4 duration-200 
+                                hover:scale-105"
+                  >
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
