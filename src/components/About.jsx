@@ -42,7 +42,7 @@ const About = () => {
           forward to connecting with you! Feel free to reach out via LinkedIn,
           email or cell.
         </p>
-        {/* <br /> */}
+        
         {/* <p className='text-xl'>
         In addition, I have expertise in JavaScript, Python, HTML5, CSS, 
         Java, Java Spring, Flask, Express, Bootstrap, AJAX, React, Jinja2, Node.js,

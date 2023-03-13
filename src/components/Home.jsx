@@ -20,9 +20,11 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a software developer with 10 years of experience in the
-            hospitality industry. I am an experienced professional who has
-            lived, studied, and worked in three different countries.
+          I am a software developer, and prior to transitioning into this field,
+           I spent ten years honing my skills in customer service, team management, 
+           and problem-solving in the hospitality industry. My diverse background and 
+           experience have equipped me with a unique perspective and skillset that I now 
+           apply to my work as a software developer.
           </p>
 
           <div>
