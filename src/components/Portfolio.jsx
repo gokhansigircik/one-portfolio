@@ -9,8 +9,8 @@ const Portfolio = () => {
     {
       id: 1,
       src: camps,
-      codeSrc: "https://github.com/gokhansigircik",
-      watch: "https://www.youtube.com/channel/UC0gjQvO1xluRKmaKqisAhrA",
+      codeSrc: "https://github.com/gokhansigircik/C.A.M.P.S",
+      // watch: "https://www.youtube.com/channel/UC0gjQvO1xluRKmaKqisAhrA",
     },
     {
       id: 2,
