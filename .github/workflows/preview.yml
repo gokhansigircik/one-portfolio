@@ -51,7 +51,8 @@ jobs:
             - Build: npm run build
 
       - name: Vercel Preview
-        if: success()
+        if: ${{ success() && secrets.VERCEL_TOKEN != '' && secrets.VERCEL_ORG_ID != '' && secrets.VERCEL_PROJECT_ID != '' }}
+        id: vercel_preview
         uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
@@ -63,7 +64,7 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 
       - name: Comment preview URL
-        if: success() && steps.vercel_preview.outputs.preview-url
+        if: ${{ steps.vercel_preview.outputs.preview-url != '' }}
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |
