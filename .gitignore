@@ -11,6 +11,11 @@
 # production
 /build
 
+# nextjs
+/.next
+/out
+/.vercel
+
 # misc
 .DS_Store
 .env.local
