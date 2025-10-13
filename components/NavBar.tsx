@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
 import clsx from "clsx";
 import ThemeToggle from "@/components/ThemeToggle";
@@ -14,7 +13,6 @@ const sections = [
 ];
 
 const NavBar = () => {
-  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggleMenu = () => setIsOpen((prev) => !prev);
