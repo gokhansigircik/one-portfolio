@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Gokhan Sigircik Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React portfolio site for Gokhan Sigircik, built to connect his hospitality background with his full stack software engineering work.
 
-## Available Scripts
+## Product story
 
-In the project directory, you can run:
+This site is the center of Gokhan's public career presence. It presents the transition from hospitality into engineering, highlights selected projects, and gives recruiters a clear contact path.
 
-### `npm start`
+## What it demonstrates
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Area | Evidence |
+| --- | --- |
+| Frontend structure | React components for home, about, portfolio, experience, contact, navigation, and social links. |
+| Career storytelling | Public copy frames hospitality experience as an engineering strength. |
+| Visual presentation | Tailwind, custom assets, icons, smooth scrolling, and responsive sections. |
+| Deployment readiness | The portfolio is designed for Netlify and other static hosting flows. |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Stack
 
-### `npm test`
+React 18, JavaScript, Tailwind CSS, React Icons, React Scroll, Create React App, Netlify.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run locally
 
-### `npm run build`
+```bash
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Build for production.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project structure
 
-### `npm run eject`
+```text
+src
+├── components
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Experience.jsx
+│   ├── Home.jsx
+│   ├── NavBar.jsx
+│   ├── Portfolio.jsx
+│   └── SocialLinks.jsx
+├── assets
+└── App.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Portfolio direction
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Turn each selected GitHub repo into a short case study.
+2. Add live links, screenshots, and concise project outcomes.
+3. Keep the voice aligned with the LinkedIn story: hospitality, service, growth, and practical software.
+4. Replace generic bootcamp framing with product language.
+5. Keep contact paths clear and current.

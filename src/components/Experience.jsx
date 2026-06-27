@@ -87,7 +87,7 @@ const Experience = () => {
     {
       id: 11,
       src: materialui,
-      title: 'Material-Ul',
+      title: 'Material UI',
       style: 'shadow-pink-400'
     },
     {

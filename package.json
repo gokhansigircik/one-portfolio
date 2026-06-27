@@ -1,5 +1,5 @@
 {
-  "name": "one-portfolio",
+  "name": "gokhan-sigircik-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,5 +39,12 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.7"
+  },
+  "description": "Career portfolio connecting hospitality leadership with full stack web development.",
+  "author": "Gokhan Sigircik",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gokhansigircik/one-portfolio.git"
   }
 }
