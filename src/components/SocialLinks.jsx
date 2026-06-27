@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -23,15 +23,6 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/gokhansigircik",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          Youtube <FaYoutube size={30} />
-        </>
-      ),
-      href: "https://www.youtube.com/channel/UC0gjQvO1xluRKmaKqisAhrA",
     },
     {
       id: 3,
@@ -69,8 +60,7 @@ const SocialLinks = () => {
           >
             <a
               href={href}
-              className="flex justify-between 
-          items-center w-full text-white"
+              className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
               rel="noreferrer"

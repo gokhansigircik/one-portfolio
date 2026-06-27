@@ -1,23 +1,24 @@
-# Gokhan Sigircik Portfolio
+# Gokhan Sigircik career portfolio
 
-A React portfolio site for Gokhan Sigircik, built to connect his hospitality background with his full stack software engineering work.
+A React portfolio for a full stack software developer focused on data driven web applications, business workflows, and operations software.
 
-## Product story
+## Why this exists
 
-This site is the center of Gokhan's public career presence. It presents the transition from hospitality into engineering, highlights selected projects, and gives recruiters a clear contact path.
+The site turns Gokhan's LinkedIn story into a faster hiring surface. A recruiter should land here and understand three things quickly: he can build across the stack, he has real operations judgment, and his projects are organized around business problems rather than isolated exercises.
 
-## What it demonstrates
+## What the site covers
 
-| Area | Evidence |
+| Section | Purpose |
 | --- | --- |
-| Frontend structure | React components for home, about, portfolio, experience, contact, navigation, and social links. |
-| Career storytelling | Public copy frames hospitality experience as an engineering strength. |
-| Visual presentation | Tailwind, custom assets, icons, smooth scrolling, and responsive sections. |
-| Deployment readiness | The portfolio is designed for Netlify and other static hosting flows. |
+| Home | Clear positioning around full stack software, AI web application direction, and Austin based job search. |
+| About | The bridge from Four Seasons operations leadership to software ownership. |
+| Selected work | Six curated repositories with product framing, stack, and code links. |
+| Skillset | Frontend, backend, database, tooling, and product execution signals. |
+| Contact | Email, LinkedIn, GitHub, and resume handoff. |
 
 ## Stack
 
-React 18, JavaScript, Tailwind CSS, React Icons, React Scroll, Create React App, Netlify.
+React 18, JavaScript, Tailwind CSS, React Icons, React Scroll, Create React App.
 
 ## Run locally
 
@@ -48,10 +49,6 @@ src
 └── App.js
 ```
 
-## Portfolio direction
+## Hiring narrative
 
-1. Turn each selected GitHub repo into a short case study.
-2. Add live links, screenshots, and concise project outcomes.
-3. Keep the voice aligned with the LinkedIn story: hospitality, service, growth, and practical software.
-4. Replace generic bootcamp framing with product language.
-5. Keep contact paths clear and current.
+Gokhan is positioned for full stack, frontend, and product focused engineering roles. The strongest signal is the mix of software execution and operations ownership: he has built with React, Next.js, Python, FastAPI, Flask, Java, Spring Boot, PostgreSQL, MySQL, MongoDB, REST APIs, GitHub, Postman, AWS, and Figma, and he has managed real teams in high pressure service environments.

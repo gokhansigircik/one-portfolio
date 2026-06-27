@@ -11,13 +11,13 @@ const About = () => {
         </div>
         <div className="space-y-6 text-xl leading-9 text-gray-200">
           <p>
-            Hello, I am Gokhan Sigircik, a full stack developer based in Washington, DC. Before software, I spent ten years in hospitality, building the service, leadership, communication, and problem solving habits that now shape the way I build products.
+            I am Gokhan Sigircik, a full stack software developer focused on business driven web applications. I work across frontend architecture, backend services, database design, authentication flows, dashboards, APIs, admin panels, and automation focused product logic.
           </p>
           <p>
-            That background gives me a practical lens. I care about workflows, handoffs, edge cases, customer trust, and the details teams need when a product is used in the real world. I enjoy building clear interfaces, reliable CRUD flows, authentication, dashboards, and API connected experiences.
+            My engineering work includes a foundation digital platform built with React, Next.js, Python, FastAPI, and PostgreSQL, client software builds through Upwork, the C.A.M.P.S registration platform, and Cashflows, a property investment analytics app built with Flask and MySQL.
           </p>
           <p>
-            My current stack includes JavaScript, React, Tailwind CSS, Python, Flask, Java, Spring Boot, MySQL, Git, and modern deployment workflows. I am focused on fewer, stronger projects that show product thinking and steady execution.
+            Before software, I managed operations at Four Seasons for nine years. That work trained the habits I bring into engineering: clear communication, ownership under pressure, structured problem solving, service quality, and attention to workflow details that affect real people.
           </p>
         </div>
       </div>
