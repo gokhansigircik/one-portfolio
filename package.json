@@ -40,7 +40,7 @@
   "devDependencies": {
     "tailwindcss": "^3.2.7"
   },
-  "description": "Career portfolio connecting hospitality leadership with full stack web development.",
+  "description": "React career portfolio for a full stack developer focused on data-driven business workflow software.",
   "author": "Gokhan Sigircik",
   "license": "MIT",
   "repository": {
